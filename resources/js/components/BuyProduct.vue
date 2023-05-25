@@ -49,6 +49,7 @@
 <!--    </div>-->
 <!--</template>-->
 <template>
+    <div>ola</div>
   <div class="pixel-board" @mousedown="startPainting" @mouseup="stopPainting" @mouseleave="stopPainting">
     <div v-for="(row, rowIndex) in board" :key="rowIndex" class="pixel-row">
       <div v-for="(pixel, pixelIndex) in row" :key="pixelIndex"
